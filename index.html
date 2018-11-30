@@ -18,6 +18,20 @@ font-size: 35px;
 line-height: 87px;
 left:1%;
 }
+#name1{
+position:relative;
+font-weight: bold;
+font-size: 35px;
+line-height: 87px;
+left:1%;
+}
+#name2{
+position:relative;
+font-weight: bold;
+font-size: 35px;
+line-height: 87px;
+left:1%;
+}
 #about{
 position:relative;
 line-height: 100px;
@@ -69,12 +83,12 @@ font-size: 30px;
 }
 .projects2{
 display:flex;
-background-color: #73DF9A;
+background-color: #272DD4;
 flex-direction: column;
 }
 #project{
 position:relative;
-left:1%;
+left:2%;
 font-size: 20px;
 text-decoration: underline;
 font-weight: bold;
@@ -82,7 +96,13 @@ font-weight: bold;
 #content{
 width: 1450px;
 position:relative;
-left:2%;
+left:3%;
+line-height: 30px;
+}
+.about2{
+display:flex;
+background-color: #787BBD;
+flex-direction: column;
 }
 </style>
 </head>
@@ -90,10 +110,10 @@ left:2%;
 
 <div class="header">
 	<div id="name"> Manh Huynh </div>
-	<div id="about"> About </div>
-	<div id="projects"> Projects </div>
+	<div id="about"><a style ="color: black;text-decoration: none;" href="#name1"> About </a></div>
+	<div id="projects"><a style ="color: black;text-decoration: none;" href="#name2"> Projects </a></div>
 	<div id="linkedin"> <a style ="color: black;text-decoration: none;" href="https://www.linkedin.com/in/manh-huynh-44531516a/" target="_blank">Linkedin</a> </div>
-	<div id="contact"> Contact </div>
+	<div id="contact"><a style ="color: black;text-decoration: none;" href="#contact3"> Contact </a></div>
 </div>
 
 <div class = "motivation">
@@ -101,8 +121,16 @@ left:2%;
 	Hi, I'm a software developer. I hope to gain more computer science experience and to see how the practical world of computer science works.
 	</div>
 </div>
-
+<div class = "about2">
+	<div id="name1"> About Me </div>
+	<div id="project">Education Background:</div>
+	<div id="content">
+	<li>Concord University: Bachelor of Science in Computer Information System (Expect: May 2019)</li>
+	<li>Green River College: High School Diploma (June 2016)</li>
+	</div>
+</div>
 <div class = "projects2">
+	<div id="name2"> Projects </div>
 	<div id ="project">Beethoven Project:</div>
 	<div id ="content">
 	<li>Practiced agile development methodology in a group of five students. The app will help people to learn piano by music visualizer. The app is able to load MIDI files and play that into notes and they will hit the piano keyboards. I was responsible for designing the front-end and part of loading function.</li>
