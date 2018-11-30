@@ -18,23 +18,29 @@ font-size: 35px;
 line-height: 87px;
 left:1%;
 }
-#contact{
+#about{
 position:relative;
 line-height: 100px;
 font-size: 20px;
-left:68%;
+left:54%;
 }
 #projects{
 position:relative;
 line-height: 100px;
 font-size: 20px;
-left:62%;
+left:57%;
+}
+#contact{
+position:relative;
+line-height: 100px;
+font-size: 20px;
+left:63%;
 }
 #linkedin{
 position:relative;
 line-height: 100px;
 font-size: 20px;
-left:65%;
+left:60%;
 }
 .motivation{
 display:flex;
@@ -48,8 +54,7 @@ text-align: center;
 font-size: 20px;
 }
 .contact2{
-  background-color: #73DF9A;
-justify-content: center;
+background-color: #5387BC;
 line-height: 40px;
 }
 #contactlist{
@@ -62,12 +67,30 @@ position: relative;
 left: 40%;
 font-size: 30px;
 }
+.projects2{
+display:flex;
+background-color: #73DF9A;
+flex-direction: column;
+}
+#project{
+position:relative;
+left:1%;
+font-size: 20px;
+text-decoration: underline;
+font-weight: bold;
+}
+#content{
+width: 1450px;
+position:relative;
+left:2%;
+}
 </style>
 </head>
 <body>
 
 <div class="header">
 	<div id="name"> Manh Huynh </div>
+	<div id="about"> About </div>
 	<div id="projects"> Projects </div>
 	<div id="linkedin"> <a style ="color: black;text-decoration: none;" href="https://www.linkedin.com/in/manh-huynh-44531516a/" target="_blank">Linkedin</a> </div>
 	<div id="contact"> Contact </div>
@@ -79,6 +102,32 @@ font-size: 30px;
 	</div>
 </div>
 
+<div class = "projects2">
+	<div id ="project">Beethoven Project:</div>
+	<div id ="content">
+	<li>Practiced agile development methodology in a group of five students. The app will help people to learn piano by music visualizer. The app is able to load MIDI files and play that into notes and they will hit the piano keyboards. I was responsible for designing the front-end and part of loading function.</li>
+	<li>Language used: C#</li>
+	<li>Technology used: Unity, Visual Studio</li>
+	</div>
+	<div id ="project">Biology Department Database:</div>
+	<div id="content">
+	<li>I worked in setting up the sever group. I'm responsible for setting up the sever in Linux with Centos 7. I set the static IP for the sever, install PHPmyadmin on the sever, import data from database group onto the sever, set up security protection for apache.</li>
+	<li>Language used: Linux</li>
+	<li>Technology used: Linux, Centos 7, Apache, PHPmyadmin</li>
+	</div>
+	<div id ="project">Sports Fan Database:</div>
+	<div id="content">
+	<li>This is individual project. I designed and implemented a comprehensive database for a sports fan store using phpMyAdmin, hosted by XAMPP. The project can sort and display data in various of ways.</li>
+	<li>Language used: SQL</li>
+	<li>Technology used: XAMPP, PHPmyadmin</li>
+	</div>
+	<div id ="project">Daily horoscope in Python: </div>
+	<div id="content">
+	<li>This is individual project. I built a small program using BeautifulSoup library to scrape data from a daily horoscope website. Therefore, I provide users with daily horoscope quotes/fortunes based on user’s date of birth.</li>
+	<li>Language used: Python</li>
+	<li>Technology used: Python, BeautifulSoup library</li>
+	</div>
+</div>
 
 <div class = "contact2">
 	<div id="contact3"> Contact me at: </div>
